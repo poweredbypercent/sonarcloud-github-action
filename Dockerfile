@@ -1,4 +1,4 @@
-FROM sonarsource/sonar-scanner-cli:11.0
+FROM 058264399437.dkr.ecr.eu-west-1.amazonaws.com/docker-hub/sonarsource/sonar-scanner-cli:11.0
 
 LABEL version="3.0.0" \
       repository="https://github.com/sonarsource/sonarcloud-github-action" \
